@@ -1,0 +1,14 @@
+{
+  "name": "testing-training",
+  "version": "1.0.0",
+  "description": "Unit test training",
+  "scripts": {
+    "test": "mocha './src/**/*.spec.js'"
+  },
+  "author": "José A. Delgado <jose1984@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
