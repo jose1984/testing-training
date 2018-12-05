@@ -7,4 +7,8 @@ describe('Numbers', () => {
     assert.equal(5, operations.add(2, 3));
   });
 
+  it('should multiply two numbers', () => {
+    assert.equal(6, operations.multiply(2, 3));
+  });
+
 });
